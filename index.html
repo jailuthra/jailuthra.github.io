@@ -1,0 +1,18 @@
+---
+layout: page
+title: Jai Luthra
+tagline: The DarkApex, a young Linux - Jedi.
+---
+
+  {% for post in site.posts %}
+    <h2><strong><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></strong></h2>
+	<p>
+          {{ post.summary }} <a href="{{ post.url }}"><b> ...</b></a>
+        </p>
+	
+    
+  {% endfor %}
+
+
+
+
