@@ -1,0 +1,59 @@
+--- 
+status: publish
+layout: post
+tags: 
+- mozilla firefox
+- open source
+meta: 
+  dsq_thread_id: "1120926967"
+  _edit_last: "1"
+  geo_longitude: "77.22496"
+  geo_latitude: "28.635308"
+  _blogger_self: https://www.blogger.com/feeds/1372034604860463293/posts/default/6850425282124600622
+  geo_address: New Delhi, Delhi, India
+  blogger_permalink: /2012/07/firefox-os-boot2gecko-how-to-run-it.html
+  blogger_blog: www.jailuthra.in
+  blogger_author: Jai Luthra
+type: post
+published: true
+title: Firefox OS (Boot2Gecko), How to run it!
+---
+Mozilla has a new project codenamed <a href="http://www.mozilla.org/en-US/b2g/" target="_blank"><i>Boot2Gecko</i></a>.
+Yes!<b> Firefox OS</b> will be released in 2013! It is a complete HTML5/Web based OS for mobile phones.
+<div><a href="http://4.bp.blogspot.com/-4hMA_8v1cX4/UA1AHGsLGEI/AAAAAAAAA5s/Wf5fDVw_ayU/s1600/firefoxos+main.png"><img class="alignright" style="border: 0px none;" alt="" src="http://4.bp.blogspot.com/-4hMA_8v1cX4/UA1AHGsLGEI/AAAAAAAAA5s/Wf5fDVw_ayU/s320/firefoxos+main.png" width="201" height="320" border="0" /></a></div>
+It treats all apps like dial screen, app menu, games, appstore as web applications.
+It's based on top of Linux (just like Android) and hopefully will bring a change in the monopoly by Android for being the only great, Open Source and free OS for mobiles/tabs/even netbooks.
+More than 50% of Android apps are web based, so it is very easy to port them on Firefox OS.
+
+Aren't you excited? Our loved company which gave us a superb free browser, an awesome e-mail client, is now launching its OS!
+
+Want to run it on your desktop/notebook?
+You actually can!
+
+<i>These steps are targeted for Ubuntu users, Mac and Windows users can also achieve it similarly </i>
+
+1. Download the <b>latest</b> nightly release of b2g from here
+<b><a href="ftp://ftp.mozilla.org/pub/mozilla.org/b2g/nightly/latest-mozilla-central/">ftp://ftp.mozilla.org/pub/mozilla.org/b2g/nightly/latest-mozilla-central/</a></b>
+(try http if ftp doesn't work)
+
+2. Extract the bz2 file. (you will get a b2g executable but it would show a black screen)
+
+3. Clone the gaia repository from git in your <b>b2g</b> extracted folder, using this command in your b2g folder -
+<div>git clone git://github.com/mozilla-b2g/gaia</div>
+<div></div>
+<div>4. Create a gaia profile using this command in your b2g folder</div>
+<div>make -C gaia profile</div>
+<div></div>
+<div>5. Finally running Firefox OS is done by this command in your b2g directory.
+./b2g -profile gaia/profile</div>
+<div></div>
+<div></div>
+<div><a href="http://1.bp.blogspot.com/-OoTQR0mKw_I/UAxWTDjBxCI/AAAAAAAAA34/5mq-YYIZjsE/s1600/firefoxos4.png"><img class="alignleft" style="border: 0px none;" alt="" src="http://1.bp.blogspot.com/-OoTQR0mKw_I/UAxWTDjBxCI/AAAAAAAAA34/5mq-YYIZjsE/s320/firefoxos4.png" width="202" height="320" border="0" /></a><a href="http://4.bp.blogspot.com/-4hMA_8v1cX4/UA1AHGsLGEI/AAAAAAAAA5s/Wf5fDVw_ayU/s1600/firefoxos+main.png"><img class="alignleft" style="border: 0px none;" alt="" src="http://4.bp.blogspot.com/-4hMA_8v1cX4/UA1AHGsLGEI/AAAAAAAAA5s/Wf5fDVw_ayU/s320/firefoxos+main.png" width="201" height="320" border="0" /></a></div>
+<div><a href="http://3.bp.blogspot.com/-4xcxvHOFGKE/UAxWUjl5JJI/AAAAAAAAA4Q/9euvn9TuIoM/s1600/fireofxos1.png"><img class="alignleft" style="border: 0px none;" alt="" src="http://3.bp.blogspot.com/-4xcxvHOFGKE/UAxWUjl5JJI/AAAAAAAAA4Q/9euvn9TuIoM/s320/fireofxos1.png" width="202" height="320" border="0" /></a></div>
+<div><a href="http://1.bp.blogspot.com/-r64VrcWmpC4/UAxYHBkf_SI/AAAAAAAAA5A/BRJ88vMpJ28/s1600/firefoxos7.png"><img class="alignleft" style="border: 0px none;" alt="" src="http://1.bp.blogspot.com/-r64VrcWmpC4/UAxYHBkf_SI/AAAAAAAAA5A/BRJ88vMpJ28/s320/firefoxos7.png" width="202" height="320" border="0" /></a></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div><b><a href="https://wiki.mozilla.org/Gaia/Hacking">Mozilla Wiki</a> for this.</b></div>

@@ -1,0 +1,36 @@
+--- 
+status: publish
+layout: post
+tags: 
+- gci
+- kde
+meta: 
+  _edit_last: "1"
+  _ssb_hide: "false"
+  _blogger_self: https://www.blogger.com/feeds/1372034604860463293/posts/default/3321698578346476109
+  _wp_old_slug: kde-gci
+  blogger_permalink: /2012/12/kde-at-gci.html
+  blogger_blog: www.jailuthra.in
+  blogger_author: Jai Luthra
+type: post
+published: true
+title: KDE @ Google Code-In
+---
+<a href="http://www.google-melange.com/gci/document/show/gci_program/google/gci2012/about_page" target="_blank">Google Code-In</a> sounded really astounding, when I first got to know about it. But I was not really sure, if I was capable enough. Coding is just my passion that I developed 3 years ago (in 7th class) when they started teaching Visual Basic at school. But it is not necessary that you are good at your passion.
+
+<a href="http://code.google.com/gci"><img class="alignright" alt="" src="http://3.bp.blogspot.com/-2WmEVSJDLlg/UMYRZXb2M0I/AAAAAAAABS8/a3Sy89hMUcE/s320/GCI-2012.png" width="320" height="154" /></a>
+Still, when I checked out GCI's page, these words came popping out from the monitor - <b>Open-Source</b>, <b>KDE</b>, <b>Linux</b>, <b>Fedora</b>; and I felt like it is <i>the opportunity</i> I always wanted. I was introduced to Linux, almost a year before, and I loved the idea of Open Source, which I feel is gaining popularity in my country India. I dumped my old OS, and got deep into Kubuntu, and then quite recently switched to Fedora with KDE.
+..duh..why am I not getting to the point, and start talking about Code-In?
+
+<b>KDE-telepathy</b>
+I took-off with GCI, and the second task (first with KDE) was for going through KDE-telepathy (chat client)'s pre release test procedure. I was a KDE user for a while, and used KTp to IM many times. But the real challenge in this task that I saw was that you had to compile KTp from source, cloning it's git repositories. I had worked with git but, <i>Compiling software??</i> The only program(s) I ever compiled in my life were silly and short .cpp/.c files. Compiling something too big (relative to the helloworld.cpp) was a great adventure! Using cmake to compile all the components of KTp, meeting all the dependencies and all of the dependencies, and the dependd... oh.
+The first compile went fine but the account-settings component gave an error, that I discussed with my mentor on irc, and after some suggestions, and help, it started working perfectly!
+The error message that I got had an error (Aye! the error had an error), Just the word 'telepathy' was to be replaced by 'ktp', it was noted by the mentor and he corrected and committed it on git in minutes. Here is the diff of the file <a href="http://goo.gl/N7Avv" target="_blank">http://goo.gl/N7Avv</a>, and I am happy that Google Code-In made me contribute in the Foss world (even though it was such a small contribution).
+The test procedure went nice, I reported the few errors in a .odt file, and the task was closed.<b>
+I Learnt:</b> Testing, Compiling, IRC etiquettes etc.
+
+<b>Amarok </b>
+Amarok, the best music player I have met yet. The moment I saw the task about testing amarok from git (yeah quite similar to the previous), I hit claim. I got to know about the build-dep tool that all major Linux package managers have, used to meet the dependencies needed to build a package, it really helped in compiling. Testing went superb! I got to know so many new features of Amarok, that I previously was unaware of. Getting guitar tabs of songs through Amarok is the best. I documented the testing I did, and task closed.
+<b>I Learnt:</b> Features in Amarok, build-dep, Documenting reports formally etc.
+
+Overall, the experience with KDE and GCI till now was very beautiful. I got to learn about the Free and Open Source world, and many topics about open source that were cloudy in my mind, are now clear. I discovered what really happens behind the scene, the making of my most used free softwares. PS: don't forget the best thing about this program is the exposure and the experience (and of course the prizes) ;)
