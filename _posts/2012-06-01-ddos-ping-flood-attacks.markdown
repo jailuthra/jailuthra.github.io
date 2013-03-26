@@ -20,7 +20,7 @@ This makes us wonder **How Do They Do It?**
 
 These are done by DDoS (Distributed Denial-of-Service) attacks. Like Ping Flooding, Teardrop etc.
 
-**Ping Flooding -**>It is basically sending overwhelming amounts of ICMP packets through various computers to the victim (which is generally a small-website) using Bot-Nets. If the attacker sends too many packets the victim's machine would crash, thus setting the website down.
+**Ping Flooding -** It is basically sending overwhelming amounts of ICMP packets through various computers to the victim (which is generally a small-website) using Bot-Nets. If the attacker sends too many packets the victim's machine would crash, thus setting the website down.
 The command for Ping Flood is <code>ping -f &lt;ipaddress&gt;</code>
 You can try this (on your own responsibility) on this address <b>127.0.0.1 </b>which is your own computer (localhost).
 The output will be something like this
