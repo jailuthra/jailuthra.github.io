@@ -24,12 +24,14 @@ These are done by DDoS (Distributed Denial-of-Service) attacks. Like Ping Floodi
 The command for Ping Flood is <code>ping -f &lt;ipaddress&gt;</code>
 You can try this (on your own responsibility) on this address <b>127.0.0.1 </b>which is your own computer (localhost).
 The output will be something like this
-<pre><code>darkapex@xyz:~$ sudo ping -f 127.0.0.1
+<pre><code>
+darkapex@xyz:~$ sudo ping -f 127.0.0.1
 PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
 ^C
 --- 127.0.0.1 ping statistics ---
 66955 packets transmitted, 66955 received, 0% packet loss, time 1325ms
-rtt min/avg/max/mdev = 0.003/0.003/5.499/0.021 ms, ipg/ewma 0.019/0.003 ms</code></pre>
+rtt min/avg/max/mdev = 0.003/0.003/5.499/0.021 ms, ipg/ewma 0.019/0.003 ms
+</code></pre>
 Just remember to press Ctrl+C otherwise it wont stop and you would keep sending packets to yourself!!
 
 The Attackers' bandwidth, CPU speed and Memory should be higher than the website servers'.You will need many computers on various networks to attack at the same time to damage a small website.
