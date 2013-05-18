@@ -15,6 +15,7 @@ body {
     font-weight:bold;
     text-shadow: 1px 1px 1px rgb(119, 119, 119);
     margin-left:0.5em;
+    float:left;
 }
 
 .brandin {color:#444;}
@@ -48,9 +49,9 @@ body {
 }
 
 .content-main {
-    margin-top: 45px;
-    margin-left: 21%;
-    margin-right: 21%;
+    //margin-top: 45px;
+    //margin-left: 21%;
+    //margin-right: 21%;
     line-height: 1.25em;
     padding: 4%;
     color: #222;
@@ -107,3 +108,19 @@ footer {
     font-size: 1.1em;
     margin-left: 18%;
 }
+
+@media only screen and (min-width: 750px) {
+    .content-main {
+        margin-left:21%;
+        margin-right:21%;
+        margin-top: 45px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .content-main {
+        margin-top: 100px;
+    }
+    .content-main h1,h2,h3,h4 { line-height:1.8; }
+}
+
