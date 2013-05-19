@@ -22,7 +22,7 @@ body {
 
 .navbar {
     background-color: #999; //rgb(204,204,204);
-    position: fixed;
+    /* position: fixed; for screen>750px, postion: absolute; for screen <750px */
     top: 0px;
     right: 0px;
     opacity: 0.77;
@@ -115,12 +115,14 @@ footer {
         margin-right:21%;
         margin-top: 45px;
     }
+    .navbar { position: fixed; }
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 750px) {
     .content-main {
         margin-top: 100px;
     }
     .content-main h1,h2,h3,h4 { line-height:1.8; }
+    .navbar { position: absolute; }
 }
 
