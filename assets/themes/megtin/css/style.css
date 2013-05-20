@@ -2,8 +2,8 @@
 
 body {
     font-family: "Droid Sans", sans-serif;
-    //font-size: 1.1em;
     background-color: #d3d3d3;
+    color: #333;
 }
 
 .brand {
@@ -54,7 +54,6 @@ body {
     //margin-right: 21%;
     line-height: 1.25em;
     padding: 4%;
-    color: #222;
     font-size: 1.1em;
 }
 
