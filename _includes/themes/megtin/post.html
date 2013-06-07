@@ -1,5 +1,5 @@
 <div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+  <h1>{{ page.title }} {% if page.tagline %}<small style="font-size: 0.4em;">{{page.tagline}}</small>{% endif %}</h1>
 </div>
 
 <div class="row-fluid post-full">
@@ -14,10 +14,11 @@
 
   {% unless page.categories == empty %}
     <ul class="tag_box inline">
-      <li><i class="icon-folder-open"></i></li>
+      <li class="inline"><b>Categories: </b></li>
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
     </ul>
+    <br>
   {% endunless %}  
 
   {% unless page.tags == empty %}
