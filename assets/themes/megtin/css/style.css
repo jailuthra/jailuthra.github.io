@@ -2,13 +2,13 @@
 
 body {
     font-family: "Droid Sans", sans-serif;
-    background-color: #d3d3d3;
-    color: #333;
+    background-color: #eeeef7;
+    color: #3f3f3f;
 }
 
 .brand {
     text-decoration: none;
-    color: #000;
+    color: #111;
     font-size: 2.2em;
     font-family: Oswald,Arial,Helvetica,sans-serif;
     letter-spacing: -0.06em;
@@ -21,7 +21,7 @@ body {
 .brandin {color:#444;}
 
 .navbar {
-    background-color: #999; //rgb(204,204,204);
+    background-color: #bbbbc4;
     /* position: fixed; for screen>750px, postion: absolute; for screen <750px */
     top: 0px;
     right: 0px;
@@ -98,15 +98,33 @@ ul { list-style: square outside none; }
 
 pre {
     color: rgb(242, 242, 242);
-    background-color: rgb(57, 57, 57);
-    border: 1px solid rgb(57, 57, 57);
-    font-family: "Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+    background-color:#3a3a3f;
+    border: 1px solid #3a3a3f;
+    font-family: monospace;
     margin-left: 0px;
     margin-right: 0px;
     padding: 1.625em;
-    overflow: auto;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3) inset, 0px 1px 0px rgba(255, 255, 255, 0.6);
+    overflow: auto;
 }
+
+.prev, .next, .archive {
+    background-color: #1F3A70;
+    border-radius: 5px;
+}
+
+.disabled, .disabled:hover {     
+    background-color: #4C5567;
+    border-radius: 5px;
+    color: #bbb;
+ }
+
+.prev:hover, .next:hover, .archive:hover {
+    background-color:#354E7E;
+}
+
+
+.pagination a, .pagination a:visited, .pagination a:hover {color:#fff; text-decoration: none; }
 
 .the-footer {
     font-size: 1.1em;
