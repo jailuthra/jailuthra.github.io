@@ -8,7 +8,7 @@ body {
 
 .brand {
     text-decoration: none;
-    color: #111;
+    color: #222;
     font-size: 2.2em;
     font-family: Oswald,Arial,Helvetica,sans-serif;
     letter-spacing: -0.06em;
@@ -18,16 +18,16 @@ body {
     float:left;
 }
 
-.brandin {color:#444;}
+.brandin {color:#666;}
 
 .navbar {
-    background-color: #bfbfbf;
+    background-color: #cfcfcf;
     /* position: fixed; for screen>750px, postion: absolute; for screen <750px */
     top: 0px;
     right: 0px;
-    opacity: 0.77;
+    opacity: 0.73;
     width: 100%;
-    padding: 0.4em;
+    padding: 0.3em;
 }
 
 .nav {
@@ -41,11 +41,11 @@ body {
 
 .nav_link {
     text-decoration: none;
-    color: #000;
+    color: #111;
     font-size: 1.1em;
     padding: 0.35em;
     font-weight: bold;
-    font-family: inherit, serif;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
 }
 
 .content-main {
@@ -53,8 +53,8 @@ body {
     //margin-left: 21%;
     //margin-right: 21%;
     line-height: 1.25em;
-    padding: 4%;
-    font-size: 1.1em;
+    padding: 3%;
+    font-size: 1.3em;
 }
 
 .tag_box li, .pagination li,  .inline {
@@ -74,7 +74,7 @@ body {
 }
 
 h1,h2,h3,h4 {
-    font-family: Oswald, serif;
+    font-family: Oswald, sans;
 }
 
 h1 { font-size: 3.3em; padding-bottom: 0.5em; }
@@ -105,7 +105,8 @@ pre {
     margin-right: 0px;
     padding: 1.625em;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3) inset, 0px 1px 0px rgba(255, 255, 255, 0.6);
-    overflow: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 .prev, .next, .archive {
@@ -124,7 +125,7 @@ pre {
 }
 
 
-.pagination a, .pagination a:visited, .pagination a:hover {color:#fff; text-decoration: none; }
+.pagination a:link, .pagination a:visited, .pagination a:hover {color:#fff; text-decoration: none; }
 
 .the-footer {
     font-size: 1.1em;
@@ -141,7 +142,7 @@ pre {
     padding: 25px;
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 900px) {
     .content-main {
         margin-left:21%;
         margin-right:21%;
@@ -151,12 +152,15 @@ pre {
     .the-footer { width: 700px;}
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 900px) {
     .content-main {
         margin-top: 100px;
     }
-    .content-main h1,h2,h3,h4 { line-height:1.8; }
     .navbar { position: absolute; }
     .the-footer { width: 95%;}
+}
+
+@media only screen and (max-width: 450px) {
+   .content-main h1,h2,h3,h4 { line-height:1.4; }
 }
 
