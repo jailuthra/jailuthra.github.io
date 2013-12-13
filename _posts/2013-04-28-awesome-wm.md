@@ -2,7 +2,7 @@
 layout: post
 title: "Awesome WM"
 summary: "Since a month I have not used any desktop environment like KDE or Gnome on my Arch desktop (called HaVoK). It has been a great experience so far.
-What I’ve been using is called Awesome, a word that describes it very well!"
+What I have been using is called Awesome, a word that describes it very well!"
 category: 
 tags: 
 - arch
@@ -10,7 +10,7 @@ tags:
 ---
 {% include JB/setup %}
 Since a month I have not used any desktop environment like KDE or Gnome on my Arch desktop (called [HaVoK](ssh://havok.jailuthra.in)). It has been a great experience so far.  
-What I've been using is called [**Awesome**](http://awesome.naquadah.org), a word that describes it very well!
+What I have been using is called [**Awesome**](http://awesome.naquadah.org), a word that describes it very well!
 
 <a href="/img/awesome.png"><img src="/img/awesome.png" style="width:100%" /></a>
 
@@ -28,7 +28,7 @@ I am also using some other widgets that I found through googling and are not in 
 {% highlight lua linenos %}
 -- Thermal widget
   local thermalwidget  = wibox.widget.textbox()
-  vicious.register(thermalwidget, vicious.widgets.thermal, "CPU: $1°C | ", 20, { "coretemp.0", "core"} )
+  vicious.register(thermalwidget, vicious.widgets.thermal, "CPU: $1C | ", 20, { "coretemp.0", "core"} )
 {% endhighlight %}
 
 **weather widget**
@@ -40,7 +40,7 @@ I am also using some other widgets that I found through googling and are not in 
   vicious.register(weatherwidget, vicious.widgets.weather,
     function (widget, args)
       weather_t:set_text("City: " .. args["{city}"] .."\nWind: " .. args["{windkmh}"] .. "km/h " .. args["{wind}"] .. "\nSky: " .. args["{sky}"] .. "\nHumidity: " .. args["{humid}"] .. "%")
-      return " Weather: " .. args["{tempc}"] .. "°C | "
+      return " Weather: " .. args["{tempc}"] .. "C | "
       end, 300, "VIDP")
       --'300': check every 5 minutes.
       --'VIDP': the New Delhi ICAO code.   
