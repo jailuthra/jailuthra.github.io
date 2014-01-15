@@ -17,7 +17,7 @@ Peek into my [Ohloh Profile](https://www.ohloh.net/accounts/darkapex)
 
 **Email** - <mailto:me@jailuthra.in>  
 I support use of strong cryptography for privacy,
-and encourage you to use GPG encryption with my public GPG key when sending me messages. 
+and encourage you to use GPG encryption with [my public GPG key](http://jailuthra.in/files/public-key.asc) when sending me messages. 
 
 **My Geek Code:**  
 <code>
