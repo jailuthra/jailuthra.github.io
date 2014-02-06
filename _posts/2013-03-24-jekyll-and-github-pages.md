@@ -4,8 +4,7 @@ layout: post
 title: "Jekyll and Github Pages"
 summary: "This blog was on wordpress before, hosted on my desktop, I posted about it earlier. Hosting it on a daily-use desktop was quite heroic as well as crazy stuff to do. I had to frequently reboot my desktop, as I used it for many purposes other than as a server. And the blog was down for more than a week due to unavoidable circumstances." 
 tags: 
-- git
-- jekyll
+- blogging
 ---
 {% include JB/setup %}
 <img src="/img/github-logo.png" style="float:left; width:40%">
