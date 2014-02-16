@@ -2,7 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    
+    {% if page.title %}
     <title>{{ site.title }} | {{ page.title }}</title>
+    {% else %}
+    <title>{{ site.title }}</title>
+    {% endif %}
+
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
@@ -41,7 +47,6 @@
         <div class="container-narrow">
           <a class="brand" href="{{ HOME_PATH }}">jailuthra<span class="brandin">.in</span></a>
           <ul class="nav">
-                <a href="/about-me.html" class="nav_link">About Me</a>
                 <a href="/archive.html" class="nav_link">Archive</a>
                 <a href="/pages.html" class="nav_link">Pages</a>
                 <a href="/tags.html" class="nav_link">Tags</a>
