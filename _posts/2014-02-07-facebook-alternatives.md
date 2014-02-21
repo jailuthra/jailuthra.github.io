@@ -22,7 +22,7 @@ The only possible solution to avoid this is to make the forum official by **usin
 ## Mailing Lists
 
 Students can share assignments, photos, and discuss projects with their classmates by just sending
-a mail at <class.section@lists.schoolname.edu>. The lists can be moderated, and logged without any hassle.
+a mail at <class.section@lists.schoolname.edu>. And everyone subscribed to the list will get the mail.
 And a significant advantage is that students will learn to write an email, like an email.
 
 Almost always when I send a fellow classmate an email, I get a reply like:  
