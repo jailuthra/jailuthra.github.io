@@ -1,13 +1,19 @@
 ---
 layout: page
 ---
- 
-  <img src="/img/cover.jpeg" width=100% />  
-  <h3>Hi! I'm Jai Luthra. Welcome to my <a href="#blog-archive" style="font-size: 1.4em;">Blog</a> :)</h3>
-  <div id="about-me" style="background: #3A3A3F; color: #DDD; border-radius: 20px; padding: 25px; margin-bottom: 0px;">
+
+  <h2>My Ramblings:</h2>
+  <ul class="home" style="list-style:none;">
+  {% for post in site.posts %}
+    <li><h3 style="font-weight:normal;">{{ post.date | date_to_string }} &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3></li>
+  {% endfor %}
+  </ul>
+  <div id="about-me" style="background: #3A3A3F; color: #DDD; border-radius: 20px; padding: 25px; margin-top: 50px;">
+    <h3>about me</h3>
     <img src="/img/hackergotchi.png"
     style="float:left; margin:10px 15px 0px 0px; width:90px; background: #777; border-radius: 40px; border: 2px solid #333;"/>
     <p style="font-size: 1.1em; padding-top: 10px;">
+    Hi! I am Jai Luthra!</br >
     I like to call myself a linux <i>geek</i> and an <b><a href="https://en.wikipedia.org/wiki/Open_source">open-source</a> jedi</b>. <br />
     I am a high school student. I try to contribute to the FOSS community, in every way I can. <br />
     <br />
@@ -17,25 +23,5 @@ layout: page
     <b>Email -</b> me@jailuthra.in <br />
     I support use of strong cryptography for privacy, and encourage you to use GPG encryption with <a href="/files/public-key.asc">my public GPG key</a> when sending me messages. 
     </p>
-
-    <code>
-    -----BEGIN GEEK CODE BLOCK-----<br>
-    Version: 3.1<br>
-    GCS/MU/TW d- s:+ a--- C++(+++)&gt;$ UL P+ L++&gt;++++$ W++ w--- !M-- PS+ PE Y+<br>
-    PGP+ t+ R tv--(+)@ b++(+) e h- y<br>
-    ------END GEEK CODE BLOCK------<br>
-    </code></p>
-
-    <p>You can decode the geek code <a href="http://www.ebb.org/ungeek/">from here</a></p>
   </div>
-   
-  <h2 id="blog-archive" style="padding-top: 60px; margin-top: -20px;">Archive:</h2>
-  <ul class="home" style="list-style:none;">
-  {% for post in site.posts %}
-    <li><strong>{{ post.date | date_to_string }} &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></strong></li>
-  {% endfor %}
-  </ul>
-
-
-
 
