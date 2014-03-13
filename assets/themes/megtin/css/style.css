@@ -1,4 +1,6 @@
 @import "syntaxhighlighter.css";
+@import "droidsans.css";
+@import "oswald.css";
 
 body {
     font-family: "Droid Sans", sans-serif;
