@@ -6,8 +6,9 @@ tags: [blogging]
 {% include JB/setup %}
 
 The state of privacy on the Internet is spine-tingling scary. I will not repeat the effort of
-blabbing about [how you are being tracked](https://www.eff.org/nsa-spying) on almost every corner
-of the web. I would rather prefer to tell the tale of how I am trying to save my arse.
+blabbing about [how you are being spied upon](https://www.eff.org/nsa-spying) and 
+[tracked](http://donttrack.us/) on almost every corner of the web. I would rather prefer to tell
+the tale of how I am trying to save my arse.
 
 [Prism-Break](http://prism-break.org) was extremely helpful, in providing me alternatives.
 
@@ -21,10 +22,11 @@ have their code open for public review. I switched to [Diaspora](http://diaspora
 
 I was using *StatCounter* for this blog to keep a track of visitors and *Disqus* for 
 comments. Until I fired up [Lightbeam](https://en.wikipedia.org/wiki/Lightbeam_%28software%29)
-and saw how almost every website I visit uses Google Analytics. I personally find it wrong
-that if someone visits my blog, their information (ip address, user agent) is not just
-transmitted to my website, but also to third-party services which further share it with their
-'Partners' and advertisers.
+and saw how almost every website I visit uses Google Analytics. This means that Google not only
+knows my search history, but also about most of the other websites I visit. Well, this is not new.
+But I personally find it wrong that if someone visits this blog, their information (ip address, user agent)
+is not just transmitted to me, but also to third-party services which further share it with their
+partners and advertisers.
 
-But don't you worry. I have now got StatCounter, Disqus and GoogleFonts API disabled on this website.
+So, I decided to correct it. I have now got StatCounter, Disqus and GoogleFonts API disabled for this blog.
 Better late than *never*!
