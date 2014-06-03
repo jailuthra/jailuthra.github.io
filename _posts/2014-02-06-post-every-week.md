@@ -21,3 +21,6 @@ _"The secret to low-cost academic blogging is to make blogging a natural byprodu
 * Writing a detailed email reply? _Reply to public_ with a blog post.
 * Writing interesting code? Comment a snippet into a post.
 * Doing something geeky at home? Blog about what you learned.
+
+--UPDATE--  
+I always fail to implement this. I have failed again. Let's try this another time ;)
