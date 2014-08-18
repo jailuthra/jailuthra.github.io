@@ -20,7 +20,10 @@ body {
     float:left;
 }
 
-.brandin {color:#666;}
+.brandin {
+    color:#666;
+    font-size: 0.73em;
+}
 
 .navbar {
     background-color: #cfcfcf;
