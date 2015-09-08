@@ -27,7 +27,7 @@ Similarly to achieve a score of 329, there's just one way:
 
 I'll let the code (and the graph) talk now
 
-{% highlight python linenos %} 
+```python
 import matplotlib.pyplot as plt
 
 m = [0] * 361
@@ -44,7 +44,7 @@ plt.title('JEE Mains')
 plt.ylabel('No. of ways')
 plt.xlabel('Marks')
 plt.show()
-{% endhighlight %}
+```
 
 <a href="{{ site.url }}/img/mains-marks.png"> <img src="{{ site.url }}/img/mains-marks.png" width=100% alt='graph' title='Yes, this is XKCD style,
 that does not mean the hover text should be funny :|' /></a>
