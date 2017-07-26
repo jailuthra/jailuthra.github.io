@@ -63,6 +63,10 @@ body {
     font-size: 1.1em;
 }
 
+.content-main img {
+    max-width: 100%
+}
+
 .tag_box li, .pagination li,  .inline {
     display: inline-block;
     text-transform: capitalize;
