@@ -2,7 +2,7 @@
 layout: page
 ---
 
-  <h2>My Rambles:</h2>
+  <h2>Blog Posts:</h2>
   <ul class="home" style="list-style:none;">
   {% for post in site.posts %}
     <li><h3 style="font-weight:normal;">{{ post.date | date_to_string }} &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3></li>
@@ -12,7 +12,7 @@ layout: page
     <h3>about me</h3>
     <img src="/img/hackergotchi.png"
     style="float:left; margin:10px 15px 0px 0px; width:90px; background: #777; border-radius: 40px; border: 2px solid #333;"/>
-    <p style="font-size: 1.1em; padding-top: 10px;">
+    <p style="padding-top: 10px;">
     Hi, I am Jai Luthra. Welcome to my blag. (<a href="https://xkcd.com/148/">ref</a>)<br />
     I am a junior at <a href="http://iiitd.ac.in">IIIT-Delhi</a>, pursuing B.Tech. in Computer Science. You may take a look at my <a href="/files/cv.pdf">resume</a>.</br>
     I love programming and tinkering with computers. Here are a few <a href="https://github.com/jailuthra">projects</a>.<br />

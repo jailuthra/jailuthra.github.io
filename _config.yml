@@ -11,7 +11,9 @@ markdown: kramdown
 # so be sure to set them if your theme uses them.
 #
 title : Jai Luthra
-tagline: The DarkApex, a young Linux - Jedi.
+email: me@jailuthra.in
+description: >
+  Hi, I'm Jai Luthra, welcome to my blog.
 author :
   name : Jai Luthra
   email : me@jailuthra.in

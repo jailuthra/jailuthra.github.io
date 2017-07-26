@@ -8,7 +8,6 @@ tags:
 - open source
 - firefox os
 ---
-{% include JB/setup %}
 
 <img src="/img/firefoxos/phone.jpg" style="width:50%; float:right" />
 After waiting for two weeks, I did recieve my ZTE Open. I was jumping with excitement! In these two weeks I watched many unboxing/review videos of Firefox OS phones, so the unboxing part wasn't new for me.   

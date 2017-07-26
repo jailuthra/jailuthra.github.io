@@ -6,7 +6,6 @@ summary: "This blog was on wordpress before, hosted on my desktop, I posted abou
 tags: 
 - blogging
 ---
-{% include JB/setup %}
 <img src="/img/github-logo.png" style="float:left; width:40%">
 This blog was on wordpress before, hosted on my desktop, I [posted about it](http://www.jailuthra.in/2013/01/switched-to-wordpress.html) earlier.
 Hosting it on a daily-use desktop was quite heroic as well as <i>crazy</i> stuff to do. I had to frequently reboot my desktop, as I used it for many purposes other than as a server. And the blog was down for more than a week due to unavoidable circumstances.

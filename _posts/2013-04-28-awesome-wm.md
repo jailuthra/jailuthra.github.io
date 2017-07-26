@@ -8,7 +8,6 @@ tags:
 - arch
 - linux
 ---
-{% include JB/setup %}
 Since a month I have not used any desktop environment like KDE or Gnome on my Arch desktop (called [HaVoK](ssh://havok.jailuthra.in)). It has been a great experience so far.  
 What I have been using is called [**Awesome**](http://awesome.naquadah.org), a word that describes it very well!
 
@@ -25,14 +24,14 @@ Adding widgets in awesome is achieved again by lua scripting. Steps to add many 
 I am also using some other widgets that I found through googling and are not in the awesome wiki, like core-temperature, and weather widgets. You can add these in your rc.lua -  
 
 **thermal widget** 
-{% highlight lua linenos %}
+```lua
 -- Thermal widget
   local thermalwidget  = wibox.widget.textbox()
   vicious.register(thermalwidget, vicious.widgets.thermal, "CPU: $1C | ", 20, { "coretemp.0", "core"} )
-{% endhighlight %}
+```
 
 **weather widget**
-{% highlight lua linenos %}
+```lua
 -- Weather widget
   local weatherwidget = wibox.widget.textbox()
   weather_t = awful.tooltip({ objects = { weatherwidget },})
@@ -44,12 +43,12 @@ I am also using some other widgets that I found through googling and are not in 
       end, 300, "VIDP")
       --'300': check every 5 minutes.
       --'VIDP': the New Delhi ICAO code.   
-{% endhighlight %}
+```
 
 These widgets then need to be added on the panel:
-{% highlight lua %}
+```lua
    right_layout:add(weatherwidget)
    right_layout:add(thermalwidget)
-{% endhighlight %}
+```
 
 You might be interested in the entire rc.lua script that I use. [**Download it here**](/files/rc.lua).

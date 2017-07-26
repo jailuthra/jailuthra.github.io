@@ -1,9 +1,10 @@
 @import "syntaxhighlighter.css";
 @import "droidsans.css";
 @import "oswald.css";
+@imoprt "calibri.css";
 
 body {
-    font-family: "Droid Sans", sans-serif;
+    font-family: "Calibri", sans-serif;
     background-color: #fff;
     color: #3f3f3f;
 }
@@ -11,11 +12,11 @@ body {
 .brand {
     text-decoration: none;
     color: #222;
-    font-size: 2.2em;
-    font-family: Oswald,Arial,Helvetica,sans-serif;
-    letter-spacing: -0.06em;
-    font-weight:bold;
-    text-shadow: 1px 1px 1px rgb(119, 119, 119);
+    font-size: 2.3em;
+    font-family: Calibri,Arial,Helvetica,sans-serif;
+    letter-spacing: -0.04em;
+    /*font-weight:bold;*/
+    /*text-shadow: 1px 1px 1px rgb(119, 119, 119);*/
     margin-left:0.5em;
     float:left;
 }
@@ -49,17 +50,17 @@ body {
     color: #111;
     font-size: 1.1em;
     padding: 0.35em;
-    font-weight: bold;
-    font-family: Oswald, Arial, Helvetica, sans-serif;
+    /*font-weight: bold;*/
+    font-family: Calibri, Arial, Helvetica, sans-serif;
 }
 
 .content-main {
     //margin-top: 45px;
     //margin-left: 21%;
     //margin-right: 21%;
-    line-height: 1.25em;
+    /*line-height: 1.25em;*/
     padding: 3%;
-    font-size: 1.15em;
+    font-size: 1.1em;
 }
 
 .tag_box li, .pagination li,  .inline {
@@ -79,12 +80,12 @@ body {
 }
 
 h1,h2,h3,h4 {
-    font-family: Oswald, sans;
+    font-family: Calibri, sans;
     line-height: 1em;
 }
 
-h1 { font-size: 3em; padding-bottom: 0.3em; }
-h2 { font-size: 2em; }
+h1 { font-size: 2.8em; padding-bottom: 0.3em; }
+h2 { font-size: 1.8em; }
 
 ul { list-style: square outside none; }
 .content ul, .content ol { padding: 0px; }
@@ -148,19 +149,21 @@ pre {
     padding: 25px;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
     .content-main {
-        margin-left:21%;
-        margin-right:21%;
+        margin-left:auto;
+        margin-right:auto;
         margin-top: 40px;
+        width:800px;
     }
     .navbar { position: fixed; }
-    .the-footer { width: 700px;}
+    .the-footer { width: 800px;}
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     .content-main {
-        margin-top: 100px;
+        margin-top: 60px;
+        width:95%;
     }
     .navbar { position: absolute; }
     .the-footer { width: 95%;}

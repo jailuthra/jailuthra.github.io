@@ -3,7 +3,6 @@ layout: post
 title: "Testing matplotlib" 
 tags: [python, math] 
 --- 
-{% include JB/setup %}
 
 [Matplotlib](http://matplotlib.org/) is a 2D graph plotting library for python.
 I have been wanting to try it for ages, so finally I did test it out.
@@ -46,7 +45,7 @@ plt.xlabel('Marks')
 plt.show()
 ```
 
-<a href="{{ site.url }}/img/mains-marks.png"> <img src="{{ site.url }}/img/mains-marks.png" width=100% alt='graph' title='Yes, this is XKCD style,
+<a href="{{ site.url }}/img/mains-marks.png"> <img src="{{ site.url }}/img/mains-marks.png" width='100%' alt='graph' title='Yes, this is XKCD style,
 that does not mean the hover text should be funny :|' /></a>
 
 **Inference:** There are a lot more ways to achieve a low score than a high

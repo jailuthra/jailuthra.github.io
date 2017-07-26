@@ -5,7 +5,6 @@ tags: [blogging]
 summary: "Starting from today, I will be blogging **at least** once a week! 
 I wanted to follow this since the day I started blogging, but it never came to implementation."
 ---
-{% include JB/setup %}
 
 Starting from today, I will be blogging **at least** once a week!  
 I wanted to follow this since the day I started blogging, but it never came to implementation.

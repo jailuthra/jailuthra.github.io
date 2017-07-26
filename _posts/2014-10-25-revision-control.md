@@ -3,7 +3,6 @@ layout: post
 title: "Why we need Revision Control"
 tags: [git, linux, open source]
 ---
-{% include JB/setup %}
 
 _This is an adaptation of my
 [answer on quora](https://www.quora.com/How-do-I-explain-to-someone-the-difference-between-GitHub-and-Dropbox-Google-Docs-and-Drive/answer/Jai-Luthra)

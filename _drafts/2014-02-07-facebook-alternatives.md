@@ -5,7 +5,6 @@ tags: [facebook]
 summary: "Facebook, the most popular social network is extensively used by students at my school.
 Parents object to its use, as it consumes too much time. But we have a legitimate excuse"
 ---
-{% include JB/setup %}
 
 Facebook, the most popular social network is extensively used by students at my school.
 Parents object to its use, as it consumes too much time.   
