@@ -14,7 +14,7 @@ body {
     color: #222;
     font-size: 2.3em;
     font-family: Calibri,Arial,Helvetica,sans-serif;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.05em;
     /*font-weight:bold;*/
     /*text-shadow: 1px 1px 1px rgb(119, 119, 119);*/
     margin-left:0.5em;
@@ -105,8 +105,8 @@ ul { list-style: square outside none; }
 
 pre {
     color: rgb(242, 242, 242);
-    background-color:#3a3a3f;
-    border: 1px solid #3a3a3f;
+    background-color:#3a3a3a;
+    border: 1px solid #3a3a3a;
     font-family: monospace;
     margin-left: 0px;
     margin-right: 0px;
@@ -138,12 +138,15 @@ pre {
     font-size: 1.1em;
     margin-left: auto;
     margin-right: auto;
-    background-color: #3a3a3f;
+    background-color: #3a3a3a;
     color: #ddd;
     border-radius: 20px;
 }
 
-.the-footer a {color: rgb(88, 131, 195); text-decoration:none;}
+.the-footer a, #about-me a {color: #b6d9fb; text-decoration:none; border-bottom: 1px dashed #b6d9fb; }
+.the-footer a:hover, #about-me a:hover {border-bottom: 1px solid #b6d9fb; }
+
+#about-me h2, .the-footer h2 {margin-top: 8px;}
 
 .unit-foot {
     padding: 25px;
