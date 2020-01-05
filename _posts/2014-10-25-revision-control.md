@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Why we need Revision Control"
+categories: [tech]
 tags: [git, linux, open source]
 ---
 

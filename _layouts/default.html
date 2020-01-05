@@ -1,6 +1,27 @@
----
-theme :
-  name : megtin 
----
-{% include JB/setup %}
-{% include themes/megtin/default.html %}
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>{{ site.title }} - {{ page.title }}</title>
+        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+        <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    </head>
+    <body>
+        <div id="content">
+            <div id="navbar">
+                <h1 id="heading"><a href="/">{{ site.title }}</a></h1>
+                <ul>
+                    <li><a href="/blog">blog</a></li>
+                    <li><a href="/music">music</a></li>
+                    <li><a href="/poetry">poetry</a></li>
+                    <li><a href="/">whoami</a></li>
+                </ul>
+            </div>
+            {{ content}}
+        </div>
+    </body>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+</html>

@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: "Testing matplotlib" 
+categories: [tech]
 tags: [python, math] 
 --- 
 

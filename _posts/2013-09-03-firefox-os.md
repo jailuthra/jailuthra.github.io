@@ -2,7 +2,7 @@
 layout: post
 title: "Firefox OS - ZTE Open"
 summary: "After waiting for two weeks, I did recieve my ZTE Open. I was jumping with excitement! In these two weeks I watched many unboxing/review videos of Firefox OS phones, so the unboxing part wasn't new for me."
-category: 
+categories: [tech]
 tags: 
 - mozilla firefox
 - open source

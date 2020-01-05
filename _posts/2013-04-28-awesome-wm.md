@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Awesome WM"
+categories: [tech]
 summary: "Since a month I have not used any desktop environment like KDE or Gnome on my Arch desktop (called HaVoK). It has been a great experience so far.
 What I have been using is called Awesome, a word that describes it very well!"
-category: 
 tags: 
 - arch
 - linux
