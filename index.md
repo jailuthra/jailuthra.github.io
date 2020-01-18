@@ -11,8 +11,8 @@ I work as a Software Development Engineer at [Amazon Fulfilment Technologies](ht
 I recently completed my B.Tech. in Computer Science & Engineering from [IIIT-Delhi](http://iiitd.ac.in).
 You may take a look at my <a href="/files/cv.pdf">CV</a>.
 
-My technical interests are multimedia transcoding (ffmpeg, VLC), reverse engineering (mostly x64), control systems and hardware accl. computing/graphics.
-IOW, I love tinkering with systems of all shapes and sizes.
+My technical interests are multimedia transcoding (ffmpeg, VLC), reverse engineering (mostly x64), control systems and hardware acclerated computing/graphics.
+In other words, I love tinkering with systems of all shapes and sizes.
 
 Rest of my productive time is spent writing [blog posts](/blog), [poetry](/poetry) and attempting to cover the [music](/music) I love (:
 

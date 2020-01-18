@@ -4,6 +4,7 @@ permalink: "/poetry"
 title: "poetry"
 --- 
 
+* Jan 18, 2020 >> [longing](#longing)
 * Sep 25, 2019 >> [the beast](#the-beast)
 * Jul 16, 2019 >> [the pilgrimage](#the-pilgrimage)
 * May 25, 2019 >> [in for more](#in-for-more)
@@ -11,6 +12,28 @@ title: "poetry"
 * Apr 04, 2019 >> [epilogue](#epilogue)
 * Mar 20, 2019 >> [bots of a tether](#bots-of-a-tether)
 * Mar 15, 2019 >> [maggot queen](#maggot-queen)
+
+## longing ##
+
+decaying memories, hazy dreams  
+racing heart, restless nights  
+flowers primed to blossom again   
+reborn after dark and light  
+  
+chilly nights were familiar terrain  
+now warm sunlight seethes again   
+on shy buds that timidly unfurl  
+into a cosy comfortable curl  
+  
+but the summer is fleeting  
+impermanent warmth  
+the cycle of demise  
+goes on and on  
+  
+petals once so bright and vivid  
+now dull and pale, fall to the earth  
+clumsily embraced by withering winds   
+are longing and yearning for rebirth   
 
 ## the beast ##
 
