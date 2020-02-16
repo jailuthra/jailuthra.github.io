@@ -2,5 +2,6 @@ url: "https://jailuthra.in" # the base hostname & protocol for your site, e.g. h
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Jai Luthra" # the name of your site, e.g. ACME Corp.
 permalink: /:year/:month/:title:output_ext
+highlighter: rouge
 plugins:
     - jekyll-sitemap
