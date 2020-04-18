@@ -7,11 +7,11 @@ title: "whoami"
 
 Hi, I am Jai Luthra. Welcome to my little corner of the internet. My interests revolve around tech, music and philosophy.
 
-I work as a Software Development Engineer at [Amazon Fulfilment Technologies](https://www.amazon.jobs/en/teams/aft).
-I recently completed my B.Tech. in Computer Science & Engineering from [IIIT-Delhi](http://iiitd.ac.in).
-You may take a look at my <a href="/files/cv.pdf">CV</a>.
+I currently work as a Video Developer at [Livepeer](https://livepeer.org), which is creating open & decentralized video infrastructure over Ethereum.
+I graduated with a Bachelor's in Computer Science & Engineering from [IIIT-Delhi](http://iiitd.ac.in) in 2019.
+You may take a look at my <a href="/files/cv.pdf">CV</a> for more details.
 
-My technical interests are multimedia transcoding (ffmpeg, VLC), reverse engineering (mostly x64), control systems and hardware acclerated computing/graphics.
+My technical interests are multimedia transcoding (ffmpeg, VLC), reverse engineering (mostly x64), control systems and hardware acclerated computing.
 In other words, I love tinkering with systems of all shapes and sizes.
 
 Rest of my productive time is spent writing [blog posts](/blog), [poetry](/poetry) and attempting to cover the [music](/music) I love (:
