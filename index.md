@@ -7,7 +7,7 @@ title: "whoami"
 
 Hi, I am Jai Luthra. Welcome to my little corner of the internet. My interests revolve around tech, music and philosophy.
 
-I currently work as a Video Developer at [Livepeer](https://livepeer.org), which is creating open & decentralized video infrastructure over Ethereum.
+I currently work as a Video Engineer at [Livepeer](https://livepeer.org), making the low-level transcoding infrastructure faster and more reliable.
 I graduated with a Bachelor's in Computer Science & Engineering from [IIIT-Delhi](http://iiitd.ac.in) in 2019.
 You may take a look at my <a href="/files/cv.pdf">CV</a> for more details.
 
