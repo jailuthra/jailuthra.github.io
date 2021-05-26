@@ -7,7 +7,7 @@ title: "whoami"
 
 Hi, I am Jai Luthra. Welcome to my little corner of the internet. My interests revolve around tech, music and philosophy.
 
-I currently work as a Video Engineer at [Livepeer](https://livepeer.org), mostly around the low-level video transcoding infrastructure.
+I currently work as a Software Engineer at [Livepeer](https://livepeer.org), mostly on their open-source [video transcoding](https://github.com/livepeer/lpms) and [decentralized networking](https://github.com/livepeer/go-livepeer) stack.
 I graduated with a Bachelor's in Computer Science & Engineering from [IIIT-Delhi](http://iiitd.ac.in) in 2019.
 You may take a look at my <a href="/files/cv.pdf">CV</a> for more details.
 
@@ -19,8 +19,8 @@ Rest of my productive time is spent writing [blog posts](/blog), [poetry](/poetr
 ### contact
 <div id="contact"> </div>
 
-* **email** - me \[at\] jailuthra.in
-* **irc** - darkapex \[on\] [chat.freenode.net](https://freenode.net/)
+* **email** - me \[at\] \[thisdomain\]
+* **irc** - darkapex \[on\] [irc.libera.chat](https://libera.chat/)
 * **github** - [github.com/jailuthra](https://github.com/jailuthra)
 
 <small>I support use of strong cryptography for privacy, and encourage you to use GPG encryption with <a href="/files/public-key.asc">my public GPG key</a> when sending me messages.</small>
