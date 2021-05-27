@@ -22,6 +22,7 @@ Rest of my productive time is spent writing [blog posts](/blog), [poetry](/poetr
 * **email** - me \[at\] \[thisdomain\]
 * **irc** - darkapex \[on\] [irc.libera.chat](https://libera.chat/)
 * **github** - [github.com/jailuthra](https://github.com/jailuthra)
+* **social** - <a rel="me" href="https://mastodon.social/@darkapex">mastodon.social/@darkapex</a>
 
 <small>I support use of strong cryptography for privacy, and encourage you to use GPG encryption with <a href="/files/public-key.asc">my public GPG key</a> when sending me messages.</small>
 
