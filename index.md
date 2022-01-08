@@ -7,7 +7,7 @@ title: "whoami"
 
 Hi, I am Jai Luthra. Welcome to my little corner of the internet. My interests revolve around tech, music and philosophy.
 
-I currently work as a Software Engineer at [Livepeer](https://livepeer.org), mostly on their open-source [video transcoding](https://github.com/livepeer/lpms) and [decentralized networking](https://github.com/livepeer/go-livepeer) stack.
+I currently work as an Embedded Software Engineer at [Texas Instruments](https://www.ti.com), working on their Sitara-line of [ARM-based microprocessors](https://www.ti.com/microcontrollers-mcus-processors/processors/arm-based-processors/overview.html).
 I graduated with a Bachelor's in Computer Science & Engineering from [IIIT-Delhi](http://iiitd.ac.in) in 2019.
 You may take a look at my <a href="/files/cv.pdf">CV</a> for more details.
 
