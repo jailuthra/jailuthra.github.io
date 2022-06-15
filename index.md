@@ -20,7 +20,7 @@ Rest of my productive time is spent writing [blog posts](/blog), [poetry](/poetr
 <div id="contact"> </div>
 
 * **email** - me \[at\] \[thisdomain\]
-* **irc** - darkapex \[on\] [irc.libera.chat](https://libera.chat/)
+* **irc** - darkapex <small>(personal)</small> or jluthra <small>(work)</small> \[on\] [libera](https://web.libera.chat/),[oftc](https://webchat.oftc.net/)
 * **github** - [github.com/jailuthra](https://github.com/jailuthra)
 * **social** - <a rel="me" href="https://mastodon.social/@darkapex">mastodon.social/@darkapex</a>
 
