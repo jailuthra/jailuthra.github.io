@@ -17,5 +17,6 @@ My favorite artists are (in no particular order):
 * Chet Baker
 * Charles Mingus
 * King Crimson
+* Vulfpeck
 
-I personally am a 6/10 vocalist, 3/10 acoustic guitarist and 0/10 keyboardist. I sometimes make acoustic covers of my favorite songs on my [youtube channel](https://www.youtube.com/channel/UCHFG39CC5UtaibKVZGGiaaA).
+I am learning to play drums and the keys. I sometimes make acoustic covers of my favorite songs on my [youtube channel](https://www.youtube.com/channel/UCHFG39CC5UtaibKVZGGiaaA).
