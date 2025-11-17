@@ -5,7 +5,7 @@ $backgroundColor: #ffffff;
 $bodyColor: #000000;
 $bodyFont: 'Calibri',Helvetica,Arial,sans-serif;
 $linkColor: #2124ed;
-$siteWidth: 700px;
+$siteWidth: 800px;
 
 @font-face {
   font-family: 'Calibri';
@@ -17,6 +17,11 @@ body {
     background: $backgroundColor;
     color: $bodyColor;
     font-family: $bodyFont;
+    font-size: 1.2em;
+}
+
+p {
+    text-align: justify;
 }
 
 #content {
