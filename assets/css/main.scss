@@ -44,13 +44,13 @@ p {
     display: inline;
 }
 
-#post_list .date {
+.date {
   color: #666;
   font-size: 0.9em;
   font-style: italic;
 }
 
-#post_list .date::after {
+.date::after {
   content: "·";
   margin-left: 0.5em;
   margin-right: 0.5em;

@@ -4,14 +4,14 @@ permalink: "/poetry"
 title: "poetry"
 --- 
 
-* Jan 18, 2020 >> [longing](#longing)
-* Sep 25, 2019 >> [the beast](#the-beast)
-* Jul 16, 2019 >> [the pilgrimage](#the-pilgrimage)
-* May 25, 2019 >> [in for more](#in-for-more)
-* Apr 12, 2019 >> [floating](#floating)
-* Apr 04, 2019 >> [epilogue](#epilogue)
-* Mar 20, 2019 >> [bots of a tether](#bots-of-a-tether)
-* Mar 15, 2019 >> [maggot queen](#maggot-queen)
+<span class="date">Jan 18, 2020</span> [longing](#longing)  
+<span class="date">Sep 25, 2019</span> [the beast](#the-beast)  
+<span class="date">Jul 16, 2019</span> [the pilgrimage](#the-pilgrimage)  
+<span class="date">May 25, 2019</span> [in for more](#in-for-more)  
+<span class="date">Apr 12, 2019</span> [floating](#floating)  
+<span class="date">Apr 04, 2019</span> [epilogue](#epilogue)  
+<span class="date">Mar 20, 2019</span> [bots of a tether](#bots-of-a-tether)  
+<span class="date">Mar 15, 2019</span> [maggot queen](#maggot-queen)  
 
 ## longing ##
 
