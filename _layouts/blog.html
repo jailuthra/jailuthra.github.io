@@ -2,15 +2,19 @@
 layout: default
 ---
 
+<h2>blog posts</h2>
+
 <div id="post_list">
-{% for category in site.categories %}
-    <h3>{{ category[0] }}</h3>
-        <ul>
-        {% for post in category[1] %}
-            <li>
-                {{ post.date | date_to_string }} &raquo; <a href="{{ post.url }}">{{ baseurl }}{{ post.title }}</a>
-            </li>
-        {% endfor %}
-        </ul>
+{% for post in site.posts %}
+
+    <span class="date">{{ post.date | date_to_string }}</span>
+
+    <a href="{{ post.url }}" class="title">{{ post.title }}</a>
+
+    {% if post.categories.size > 0 %}
+        <span class="category">{{ post.categories | join: ", " }}</span>
+    {% endif %}
+
+    <br />
 {% endfor %}
 </div>
