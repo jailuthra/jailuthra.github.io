@@ -15,7 +15,7 @@ You may take a look at my <a href="/files/cv.pdf">CV</a> for more details.
 My technical interests are image processing, data compression, reverse engineering (mostly x64), and hardware accelerated computing.
 In other words, I love tinkering with systems of all shapes and sizes.
 
-Rest of my productive time is spent writing [blog posts](/blog), [poetry](/poetry) and attempting to cover the [music](/music) I love (:
+Rest of my productive time is spent writing [blog posts](/blog), and attempting to cover the [music](/music) I love (:
 
 ### contact
 <div id="contact"> </div>
