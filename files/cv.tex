@@ -1,0 +1,196 @@
+\documentclass[a4paper,10pt]{article}
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{url}
+\usepackage{parskip}
+\usepackage{color,graphicx}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fullpage} 				%better formatting of the A4 page
+% an alternative to Layaureo can be ** \usepackage{fullpage} **
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+\usepackage{microtype}
+
+\usepackage[a4paper, top=4em, bottom=4em, left=4em, right=4em]{geometry}
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+
+% -------------- Self-defined stuff ------------------ %
+
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\newcommand{\tabspace}{~~\llap{}~~}
+\newcommand{\spaceddot}{\quad{\large\textperiodcentered}\quad}
+\newcommand{\spaceddash}{\quad{\textbf{|}}\quad}
+
+% -------------- Self-defined stuff ends ------------- %
+
+% FONTS
+\defaultfontfeatures{Ligatures=TeX}
+
+\setmainfont[
+  SmallCapsFeatures = {Letters=SmallCaps},
+  BoldFont = TeXGyrePagella-Bold,
+  ItalicFont = TeXGyrePagella-Italic,
+  BoldItalicFont = TeXGyrePagella-BoldItalic
+]{TeX Gyre Pagella}
+%%%
+
+
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}
+  {\Large\scshape\raggedright}
+  {}
+  {0em}
+  {}
+  [\titlerule\vspace{0.4\baselineskip}]
+\titlespacing{\section}{0pt}{1pt}{1pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-2cm}
+
+%Italian hyphenation for the word: ''corporations''
+\hyphenation{im-pre-se}
+
+%-------------WATERMARK TEST [**not part of a CV**]---------------
+\usepackage[absolute]{textpos}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+\pagestyle{empty} % non-numbered pages
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Huge Jai Luthra
+	}\smallskip\par}
+\begin{center} email: \href{mailto:me@jailuthra.in}{me@jailuthra.in}\spaceddot github: \href{https://github.com/jailuthra}{jailuthra}\spaceddot blog: \href{http://jailuthra.in}{jailuthra.in}\end{center}
+
+%--------------------SECTIONS-----------------------------------
+%Section: Personal Data
+%\section{Personal Data}
+
+%\begin{tabular}{rl}
+    %\textsc{Address:}   &  Street, City, Country \\
+    %\textsc{Phone:}     & +91 xxxxx xxxxx\\
+    %\textsc{Email:}     & \href{mailto:xxx@xxx.com}{xxx@xxx.com}
+%\end{tabular}
+
+\section{Work Experience}
+\begin{tabular}{cl}
+    \textsc{October 2024} &\textbf{Ideas on Board, Helsinki}\\
+    \textit{\small{(Current)}} 
+                       &\textit{Linux Kernel Engineer}\\
+                       &\tabitem Develop linux device drivers and image processing software for\\
+                       &\tabspace embedded cameras.\\
+                       &\tabspace Areas: Linux Kernel, Camera Sensors, ISPs\\
+    \textsc{December 2021 - September 2024} &\textbf{Texas Instruments, Bengaluru}\\
+                       &\textit{Embedded Software Engineer}\\
+                       &\tabitem Writing software for TI's Sitara line of ARM-based SoCs,\\
+                       &\tabspace used in industrial and automotive applications.\\
+                       &\tabspace Areas: Linux Kernel, QNX RTOS\\
+    \textsc{April 2020 - December 2021} &\textbf{Livepeer Inc., New York}\\
+                       &\textit{Senior Software Engineer}\\
+                       &\tabitem Maintain the low-level side of the live video transcoding pipeline,\\
+                       &\tabspace running on a decentralized network of Nvidia GPUs.\\
+                       &\tabspace Areas: FFmpeg, C/Go, GPU Video Acceleration\\
+    \textsc{August 2019 - April 2020} &\textbf{Amazon Development Center, Bengaluru}\\
+                       &\textit{Software Development Engineer}\\
+                       &\tabitem Made warehouse mgmt. tools securely accessible over public network.\\
+                       &\tabspace Areas: AWS Networking and Orchestration\\
+    \textsc{May - August} 2019
+                       &\textbf{VideoLAN - Google Summer of Code}\\
+                       &\textit{Contributor \href{https://summerofcode.withgoogle.com/archive/2019/projects/6138650625048576/}{(Project Page)}}\\
+                       &\tabitem Added support for NVDec, NVIDIA's hardware acceleration video\\
+                       &\tabspace decoding API. (\href{https://code.videolan.org/gsoc2019/darkapex/vlc/tree/nvdec/}{git})\\
+                       &\tabspace Mentors: Steve Lhomme, Thomas Guillem\\
+    \textsc{May - July} 2018
+                       &\textbf{Amazon Development Center, Bengaluru}\\
+                       &\textit{Software Development Engineer - Intern}\\
+                       &\tabitem Worked with the \textbf{Automated Advertising} team.\\
+                       &\tabitem Created a web app to monitor internal AWS Simple Workflows.\\
+    \textsc{May - August} 2016 
+                       &\textbf{FFmpeg - Google Summer of Code}\\
+                       &\textit{Maintainer  \href{https://summerofcode.withgoogle.com/archive/2016/projects/4887887262777344/}{(Project Page)}}\\
+                       &\tabitem Wrote an encoder for Dolby TrueHD, a lossless audio compression codec.\\
+                       &\tabitem Updated and merged the MLP (Meridian Lossless Packing) encoder, \\
+                       &\tabspace originally written by Ramiro Polla in 2009.\\
+                       &\tabspace Mentor: Rostislav Pehlivanov (atomnuker)\\
+\end{tabular}
+
+%Section: Education
+\section{Education}
+\begin{tabular}{rl}	
+    \textsc{December} 2019      &\textbf{IIIT-Delhi}\\
+                                &Bachelor of Technology - \textbf{Computer Science and Engineering}\\
+    \textsc{April} 2015 &\normalsize\textbf{Bal Bharati Public School, Pitampura}, New Delhi\\
+                        &All-India Senior Secondary Certificate Examination \textsc{(CBSE)}, Class XII\\
+\end{tabular}
+
+
+
+%\begin{minipage}[!t]{0.6\linewidth}
+\section{Skills}
+%\vspace{0.5em}
+\begin{tabular}{cl}
+    \textsc{Languages}: &C, Python, Go, Rust, Java, C++, x86 asm, Verilog\\
+    \textsc{Frameworks}: &Video4Linux2, CUDA, OpenGL, ALSA\\ 
+\end{tabular}
+%\end{minipage}
+%\hfill
+%\begin{minipage}[!t]{0.3\linewidth}
+%\section{Languages}
+%\vspace{0.5em}
+%\begin{tabular}{rl}
+    %\textsc{English:}&Fluent\\
+    %\textsc{Hindi:}&Mother Tongue\\
+%\end{tabular}
+%\end{minipage}%
+
+\section{Projects}
+\begin{tabular}{rcl}
+    2019
+    &\textbf{\href{https://github.com/jailuthra/raytracer}{foveated raytracer}} &Foveated ray tracer in C++ for eye-tracking VR headsets.\\
+    
+    2017
+    &\textbf{\href{https://github.com/static-code-generators/ans}{ans}} &Hacking around Asymmetric Numeral Systems (ANS) entropy coding in C\\
+    
+    2017
+    &\textbf{\href{https://github.com/jailuthra/asr}{kaldi-asr}} &A wrapper around Kaldi, for easy speech recognition and alignment.\\
+    
+    2016 &\textbf{\href{https://github.com/static-code-generators/armsimc}{armsimc}} \& \textbf{\href{https://github.com/static-code-generators/armcpu}{armcpu}} &An ARM simulator in C, and a baby ARM CPU in Verilog.\\     
+    2016 &\textbf{\href{https://github.com/static-code-generators/mapbots}{Mapbots}} &Mapping rooms using a ring of ultrasonic sensors mounted on an autonomous bot\\
+    %\textsc{January} 2016 &\textbf{\href{https://github.com/jailuthra/techtree}{TechTree}} &A course dependency visualizer for IIIT-D students\\
+    %                      &&Uses graphviz, d3.js and django.\\
+    2016            &\textbf{\href{https://github.com/jailuthra/kompress}{Kompress}} &Text compression tool written in C, based on Huffman Coding.\\
+\end{tabular}
+
+%\vspace{5mm}
+
+%My \textbf{\href{https://github.com/jailuthra}{github profile}} has all my other small projects and contributions.
+
+\section{Academic Interests}
+\begin{tabular}{ccccc}
+Multimedia Codecs &Computer Graphics &Information Theory &Digital Signal Processing &Quantum Computing\\
+Linear Algebra &Operating Systems &Algorithm Design &Computer Architecture &Virtual Reality 
+\end{tabular}
+
+
+%\newpage
+%\hypertarget{gmat}{\textsc{Gmat}\setmainfont{LMRoman10 Regular}\textregistered\setmainfont[SmallCapsFont=Fontin-SmallCaps]{Fontin-Regular}}
+
+%\XeTeXpdffile ''GMAT.pdf'' page 1 scaled 800
+
+\end{document}
+
