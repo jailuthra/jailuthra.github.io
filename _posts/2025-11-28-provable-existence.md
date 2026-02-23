@@ -2,7 +2,7 @@
 layout: post
 title: "The Only Thing That Provably Exists"
 tags: []
-categories: [philosophy]
+categories: [spirituality]
 ---
 
 If you allow me, I want to demonstrate how there is only one thing that
